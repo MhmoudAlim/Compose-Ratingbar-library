@@ -54,7 +54,7 @@ afterEvaluate {
                 from components.release
 
                 groupId = 'com.github.MhmoudAlim'
-                artifactId = 'compose-rating-bar'
+                artifactId = 'Compose-Ratingbar-library'
                 version = '0.0.1'
             }
         }
