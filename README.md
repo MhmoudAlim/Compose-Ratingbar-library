@@ -8,7 +8,8 @@
 
 - [Usage](#usage)
 - [Installation](#installation)
-- [License](#-license)
+- [License](#license)
+
 
 # Usage
 
