@@ -15,7 +15,7 @@
 
 ## Installation
 
-#### Gradle:
+####Step 1- Add it in your root build.gradle at the end of repositories:
 ```groovy
 allprojects {
     repositories {
@@ -23,11 +23,26 @@ allprojects {
         maven { url "https://jitpack.io" }
     }
 }
+```
 
+###Step 2- Add the dependency
+
+```groovy
 dependencies {
-  implementation 'com.github.MhmoudAlim:Compose-Ratingbar-library:`x.y.z`'
+    ...
+    implementation 'com.github.MhmoudAlim:Compose-Ratingbar-library:x.y.z'
 }
 ```
+
+###Step 3- Optional
+####in some cases in Android studio you might need to add to your settings.gradle
+```groovy
+repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+}
+```
+
 
 (Please replace x, y and z with the latest version numbers: [![](https://jitpack.io/v/MhmoudAlim/Compose-Ratingbar-library.svg))
 
