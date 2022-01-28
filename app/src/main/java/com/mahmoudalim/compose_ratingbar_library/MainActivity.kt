@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.runtime.mutableStateOf
+import com.mahmoudalim.compose_rating_bar.RatingBarView
 import com.mahmoudalim.compose_ratingbar_library.ui.theme.ComposeRatingbarlibraryTheme
 
 class MainActivity : ComponentActivity() {
