@@ -1,21 +1,54 @@
 <p align="center">
-	<a href="https://jitpack.io/#MhmoudAlim/Compose-Ratingbar-library)"> <img src="https://jitpack.io/v/MhmoudAlim/Compose-Ratingbar-library.svg" height="20"/></a>
+<img src="https://github.com/MhmoudAlim/Compose-Ratingbar-library/blob/master/blob/logo/compoesRatingBarLogo.png?https://github.com/MhmoudAlim/Compose-Ratingbar-library/blob/master/blob/logo/compoesRatingBarLogo.png?raw=true" alt="ComposeRatingBar" height="400"/>
+</p>
+<h1 align="center">ComposeRatingBar</h1>
+
+
+<br/>
+<p align="center">
+	<a href="https://jitpack.io/#MhmoudAlim/Compose-Ratingbar-library)"> <img src="https://jitpack.io/v/MhmoudAlim/Compose-Ratingbar-library.svg" height="20" alt="jitpack"/></a>
 <a href="https://twitter.com/intent/tweet?text=ComposeRatingBar%20is%20a%20simple%20implementation%20for%20rating%20bar%20in%20Jetpack%20Compose%20https://github.com/MhmoudAlim/Compose-Ratingbar-library%20#android%20#kotlin%20#java%20#library%20#developers"><img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" height="20"/></a>
 
-**ComposeRatingBar** is a simple implementation for rating bar in Jetpack Compose.
+
+
+
+**ComposeRatingBar**  is an Android Jetpack Compose library made with :heart:, it's a simple yet customizable implementation for a rating bar in Jetpack Compose.
+
 
 # Table of contents
 
-- [Usage](#usage)
-- [Installation](#installation)
-- [License](#license)
+- [Preview] (#preview)
+- [Installation] (#installation)
+- [Demo] (#demo)
+- [License] (#license)
 
 
-# Usage
+---
+## Preview
 
+
+
+
+<br/>
+
+Dark theme            |  Light theme
+:-------------------------:|:-------------------------:
+![](https://github.com/MhmoudAlim/Compose-Ratingbar-library/blob/master/blob/screenshots/composeratingbar_sample3.png?raw=true)  |   ![](https://github.com/MhmoudAlim/Compose-Ratingbar-library/blob/master/blob/screenshots/composeratingbar_sample4.png?raw=true)
+
+
+<br/>
+
+Animated Dark            |  Animated Light
+:-------------------------:|:-------------------------:
+![](https://github.com/MhmoudAlim/Compose-Ratingbar-library/blob/master/blob/screenshots/Compose-Ratingbar-library_sample1.gif?raw=true)  |  ![](https://github.com/MhmoudAlim/Compose-Ratingbar-library/blob/master/blob/screenshots/Compose-Ratingbar-library_sample2.gif?raw=true)
+
+
+<br/>
+
+---
 ## Installation
 
-####Step 1- Add it in your root build.gradle at the end of repositories:
+### - Step 1- Add jitpack in your project build.gradle
 ```groovy
 allprojects {
     repositories {
@@ -25,7 +58,7 @@ allprojects {
 }
 ```
 
-###Step 2- Add the dependency
+### - Step 2- Add the dependency in your app build.gradle
 
 ```groovy
 dependencies {
@@ -33,9 +66,11 @@ dependencies {
     implementation 'com.github.MhmoudAlim:Compose-Ratingbar-library:x.y.z'
 }
 ```
+Please replace x, y and z with the latest version numbers: [](https://jitpack.io/v/MhmoudAlim/Compose-Ratingbar-library.svg)
 
-###Step 3- Optional
-####in some cases in Android studio you might need to add to your settings.gradle
+### - Step 3- Optional
+
+#### in some **Gradle** :stuck_out_tongue_closed_eyes: versions in Android studio you might need to add to your settings.gradle
 ```groovy
 repositories {
     ...
@@ -43,12 +78,21 @@ repositories {
 }
 ```
 
+---
+## Demo
 
-(Please replace x, y and z with the latest version numbers: [![](https://jitpack.io/v/MhmoudAlim/Compose-Ratingbar-library.svg))
+[ComposeRatingbarApp](https://github.com/MhmoudAlim/Compose-Ratingbar-library/tree/master/demo)
+example app demonstrates how simple the usage of the library actually is.
+</br>
+### Download App [here](https://github.com/MhmoudAlim/Compose-Ratingbar-library/raw/master/docs/apk/demo-release.apk)
 
+---
 ## :clap: Contribution
 
-All Pull Requests (PRs) are welcome. Help us make this library better.
+- PRs are welcome, let's make this library better. :raised_hands:
+
+- please :star: if you like the idea!
+
 
 ## License
 
