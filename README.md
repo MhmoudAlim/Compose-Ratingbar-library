@@ -17,10 +17,10 @@
 
 # Table of contents
 
-- [Preview] (#preview)
-- [Installation] (#installation)
-- [Demo] (#demo)
-- [License] (#license)
+- [Preview](#preview)
+- [Installation](#installation)
+- [Demo](#demo)
+- [License](#license)
 
 
 ---
