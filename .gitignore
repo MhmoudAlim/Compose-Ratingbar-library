@@ -21,7 +21,7 @@ build
 
 *.apk
 *.aab
-app/release
-app/debug
+demo/release
+demo/debug
 
 fastlane/report.xml
