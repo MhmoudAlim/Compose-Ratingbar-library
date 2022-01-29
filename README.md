@@ -84,7 +84,7 @@ repositories {
 [ComposeRatingbarApp](https://github.com/MhmoudAlim/Compose-Ratingbar-library/tree/master/demo)
 example app demonstrates how simple the usage of the library actually is.
 </br>
-### Download App [here](https://github.com/MhmoudAlim/Compose-Ratingbar-library/raw/master/docs/apk/demo-release.apk)
+### Download App [here](https://github.com/MhmoudAlim/Compose-Ratingbar-library/raw/master/blob/apk/demo-release.apk)
 
 ---
 ## :clap: Contribution
