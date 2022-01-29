@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     Column(
                         modifier = Modifier.fillMaxSize(),
-                        verticalArrangement = Arrangement.spacedBy(24.dp),
+                        verticalArrangement = Arrangement.spacedBy(48.dp),
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
                         Text(
@@ -45,10 +45,19 @@ class MainActivity : ComponentActivity() {
                         RatingBarView(
                             rating = mutableStateOf(0),
                             isRatingEditable = true,
-                            isViewAnimated = true,
                             ratedStarsColor = Color(255, 220, 0),
                             starIcon = painterResource(id = R.drawable.ic_star_shade),
                             unRatedStarsColor = Color.LightGray
+                        )
+
+
+                        RatingBarView(
+                            rating = mutableStateOf(4),
+                            isRatingEditable = true,
+                            isViewAnimated = true,
+                            starIcon = painterResource(id = R.drawable.ic_star),
+                            unRatedStarsColor = Color.LightGray,
+                            starsPadding = 16.dp
                         )
                     }
                 }
