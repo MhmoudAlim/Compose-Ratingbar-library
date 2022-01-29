@@ -8,5 +8,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Compose-Ratingbar-library"
-include ':app'
+include ':demo'
 include ':compose-rating-bar'
