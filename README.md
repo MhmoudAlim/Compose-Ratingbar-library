@@ -66,7 +66,7 @@ dependencies {
     implementation 'com.github.MhmoudAlim:Compose-Ratingbar-library:x.y.z'
 }
 ```
-Please replace x, y and z with the latest version numbers: [](https://jitpack.io/v/MhmoudAlim/Compose-Ratingbar-library.svg)
+Please replace x, y and z with the latest version numbers: ![](https://jitpack.io/v/MhmoudAlim/Compose-Ratingbar-library.svg)
 
 ### - Step 3- Optional
 
