@@ -16,7 +16,7 @@ implementation for a rating bar in Jetpack Compose.
 <br/>
 <p align="center">
 	<a href="https://jitpack.io/#MhmoudAlim/Compose-Ratingbar-library)"> <img src="https://jitpack.io/v/MhmoudAlim/Compose-Ratingbar-library.svg" height="20" alt="jitpack"/></a>
-	<a href="https://android-arsenal.com/details/1/8384"> <img src=" https://img.shields.io/badge/Android%20Arsenal-ComposeRatingBar-red.svg?style=flat" alt="Android_Arsenal"/></a>
+	<a href="https://android-arsenal.com/details/1/8384"> <img src="https://img.shields.io/badge/Android%20Arsenal-ComposeRatingBar-orange.svg?style=flat" alt="Android_Arsenal"/></a>
    <img src="https://img.shields.io/badge/platform-Android-blue.svg" alt="Android"/>
    <img src="https://img.shields.io/badge/API-+21-blueviolet" alt="API-21"/>
 
