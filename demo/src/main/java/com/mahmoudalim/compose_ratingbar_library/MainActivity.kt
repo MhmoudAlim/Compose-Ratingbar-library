@@ -1,12 +1,14 @@
 package com.mahmoudalim.compose_ratingbar_library
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.*
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
-import androidx.compose.material.Text
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -20,12 +22,13 @@ import com.mahmoudalim.compose_rating_bar.RatingBarView
 import com.mahmoudalim.compose_ratingbar_library.ui.theme.ComposeRatingbarlibraryTheme
 
 class MainActivity : ComponentActivity() {
+    @SuppressLint("UnrememberedMutableState")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             ComposeRatingbarlibraryTheme {
                 Surface(
-                    color = MaterialTheme.colors.background,
+                    color = MaterialTheme.colorScheme.background,
                     modifier = Modifier.padding(16.dp)
                 ) {
                     Column(
@@ -43,16 +46,16 @@ class MainActivity : ComponentActivity() {
                         )
 
                         RatingBarView(
-                            rating = mutableStateOf(0),
+                            rating = mutableIntStateOf(0),
                             isRatingEditable = true,
                             ratedStarsColor = Color(255, 220, 0),
-                            starIcon = painterResource(id = R.drawable.ic_star_shade),
+                            starIcon = painterResource(id = R.drawable.ic_star),
                             unRatedStarsColor = Color.LightGray
                         )
 
 
                         RatingBarView(
-                            rating = mutableStateOf(4),
+                            rating = mutableIntStateOf(4),
                             isRatingEditable = true,
                             isViewAnimated = true,
                             starIcon = painterResource(id = R.drawable.ic_star),
